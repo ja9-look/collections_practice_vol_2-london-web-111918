@@ -9,3 +9,7 @@ end
 def first_wa(array)
   array.find {|element| element.to_s.start_with?("wa")}
 end
+
+def remove_non_strings(array)
+  array.delete_if {|element| element.delete_if
+end
