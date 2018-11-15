@@ -31,6 +31,7 @@ def merge_data(keys, data)
   array2 = []
   
   keys.each do |hash|
+    array1 << hash
     
 end
 
