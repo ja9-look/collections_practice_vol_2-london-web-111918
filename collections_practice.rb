@@ -14,7 +14,3 @@ def begins_with_r(tools)
     else return false 
 end
 end
-
-def contain_a(elements)
-
-end
