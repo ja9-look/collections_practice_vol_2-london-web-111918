@@ -5,7 +5,7 @@ def begins_with_r(tools)
     if tools[i].start_with?("r")
     new_tools.push(tools[i])
   end
-  i + i = 1 
+  i += 1 
   end
   
   if new_tools.length == tools.length
