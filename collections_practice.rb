@@ -10,6 +10,7 @@ def begins_with_r(tools)
   
   if new_tools.length == tools.length
     return true 
+    
     else return false 
 end
 
