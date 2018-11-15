@@ -40,6 +40,35 @@ def merge_data(keys, data)
    merged_array = array_one.map.with_index { |x, i| x.merge(array_two[i]) }
  end
 
+def find_cool(hashes)
+   cool_hashes = []
+   hashes.each do |hash|
+     hash.each do |key, value|
+       if value == "cool"
+         cool_hashes << hash
+       end
+     end
+   end
+   cool_hashes
+ end
 
+
+  def organize_schools(schools)
+   new_hash = {}
+   arr = []
+   schools.each do |name, hash|
+     hash.each do |location_key, location|
+       if new_hash[location].nil?
+         arr << name
+         new_hash[location] = arr
+         arr = []
+       elsif new_hash[location]
+         new_hash[location] << name
+         arr = []
+       end
+     end
+   end
+   new_hash
+ end
 
 
