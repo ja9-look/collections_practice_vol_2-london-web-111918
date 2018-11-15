@@ -1,5 +1,5 @@
-def begins_with_r(element)
-  if element.first == "r"
+def begins_with_r(elements)
+  if 
     return true
   else 
     return false 
