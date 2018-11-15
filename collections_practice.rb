@@ -20,5 +20,7 @@ def count_elements(array)
   count = 0 
   
   array.each do |element|
-    element[:count] 
+    element[:count] = new_array[count]
+    count += 1 
+    
 end
