@@ -33,7 +33,8 @@ def merge_data(keys, data)
   keys.each do |hash|
     array1 << hash
   end
-  data.each do 
+  data.each do |hashes|
+    
 end
 
 
