@@ -1,6 +1,7 @@
 def begins_with_r(tools)
   i = 0 
-  while i 
+  new_tools = []
+  while 
     return true
   else 
     return false 
