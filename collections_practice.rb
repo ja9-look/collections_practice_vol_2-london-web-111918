@@ -4,3 +4,7 @@ def begins_with_r(element)
   else false 
 end
 end
+
+def contain_a(elements)
+  return elements.include?("a")
+end
