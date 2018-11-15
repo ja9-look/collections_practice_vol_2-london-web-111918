@@ -6,5 +6,5 @@ end
 end
 
 def contain_a(elements)
-  return elements.include?("a")
+  contain_a.include 
 end
