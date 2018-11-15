@@ -34,7 +34,11 @@ def merge_data(keys, data)
     array1 << hash
   end
   data.each do |hashes|
-    hashes.each do |
-end
+    hashes.each do |key, merge_value|
+       array_two << merge_value
+     end
+   end
+   merged_array = array_one.map.with_index { |x, i| x.merge(array_two[i]) }
+ end
 
 
