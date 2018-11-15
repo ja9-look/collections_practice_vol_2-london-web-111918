@@ -6,6 +6,5 @@ end
 end
 
 def contain_a(elements)
-  contain_a(elements). do |element| element.first("a")
-end
+
 end
