@@ -16,5 +16,5 @@ end
 
 def count_elements(array)
   new_array = []
-  array.each {|element| element.count << 
+  array.each {|element| element.count(element)
 end
