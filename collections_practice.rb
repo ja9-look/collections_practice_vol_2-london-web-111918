@@ -6,7 +6,11 @@ def begins_with_r(tools)
     new_tools.push(tools[i])
   end
   i += 1 
-  return false 
+  end
+  
+  if new_tools.length == tools.length
+    return true 
+    return false 
 end
 
 end
