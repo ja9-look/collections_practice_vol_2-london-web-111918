@@ -3,5 +3,5 @@ def begins_with_r(tools)
 end
 
 def contain_a(array)
-  array.all? {|element| element.include?("a")}
+  array.select {|element| element.include?("a")}
 end
