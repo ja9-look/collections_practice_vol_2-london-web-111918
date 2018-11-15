@@ -5,7 +5,7 @@ def begins_with_r(tools)
     if tools.start_with?("r")
     new_tools.push(tools[i])
   end
-  i += 1 
+  i + i = 1 
   end
   
   if new_tools.length == tools.length
@@ -13,7 +13,6 @@ def begins_with_r(tools)
     
     else return false 
 end
-
 end
 
 def contain_a(elements)
