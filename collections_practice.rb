@@ -26,7 +26,10 @@ def count_elements(array)
   array.uniq 
 end
 
-def merge_data(array1, array2)
+def merge_data(keys, data)
+  array1 = []
+  array2 = []
+  
   
 end
 
