@@ -22,5 +22,6 @@ def count_elements(array)
   array.each do |element|
     element[:count] = new_array[count]
     count += 1 
-    
+  end
+  array.uniq 
 end
