@@ -1,3 +1,3 @@
 def begins_with_r(tools)
-  tools 
+  tools.all? {|tool| tool.start_with?("r")}
 end
