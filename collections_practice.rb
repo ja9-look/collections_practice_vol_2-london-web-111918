@@ -4,8 +4,9 @@ def begins_with_r(tools)
   while i < tools.length
     if tools.start_with?("r")
     new_tools.push(tools[i])
-  else 
-    return false 
+  end
+  i += 1 
+  return false 
 end
 
 end
